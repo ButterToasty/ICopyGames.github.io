@@ -9,7 +9,7 @@
         <script>
             var swfobject = {};
 
-            swfobject.embedSWF = function(url, cont, width, width){
+            swfobject.embedSWF = function(url, cont, width, height){
                 var ruffle = window.RufflePlayer.newest(),
                     player = Object.assign(document.getElementById(cont).appendChild(ruffle.createPlayer()), {
                         width: width,
@@ -20,7 +20,7 @@
                 player.load({ url: url });
             }
 
-            swfobject.embedSWF('worlds-hardest-game.swf', 'ruffle', window.innerWidth || document.body.clientWidth, window.innerHeight || document.body.clientHeight);
+            swfobject.embedSWF('worlds-hardest-game.swf', 'ruffle', 640, 480);
         </script>
     </body>
 </html>
