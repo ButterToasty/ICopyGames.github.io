@@ -1,4 +1,4 @@
-# flash-games.github.io
+# [flash-games.github.io](https://flash-games.github.io)
 
 # Play the Flash games from our repository in your browser!
 
